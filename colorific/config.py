@@ -1,6 +1,6 @@
 # colors
-WHITE = (256, 256, 256)
-BLACK = (256, 256, 256)
+WHITE = (255, 255, 255)
+BLACK = (0, 0, 0)
 
 # algorithm tuning
 N_QUANTIZED = 100            # start with an adaptive palette of this size

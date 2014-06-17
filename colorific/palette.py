@@ -129,7 +129,7 @@ def extract_colors(
 
     # aggregate colors
     to_canonical = {config.WHITE: config.WHITE, config.BLACK: config.BLACK}
-    aggregated = Counter({config.WHITE: 0, config.BLACK: 0})
+    aggregated = Counter() # {config.WHITE: 0, config.BLACK: 0})
     sorted_cols = sorted(dist.iteritems(), key=itemgetter(1), reverse=True)
     for c, n in sorted_cols:
         if c in aggregated:
